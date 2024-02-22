@@ -1,0 +1,40 @@
+/* footer */
+#footer{
+    background-color: #3863CD;
+    color: #fff;
+    height: 500px;
+}
+.inner_footer{
+    margin: 50px auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+.sns_icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sns_icon li a{
+    display: block;
+    padding: 30px 15px;
+}
+.sns_icon li a:hover{
+    opacity: 40%;
+}
+.right_box{
+    text-align: right;
+}
+.right_box P{
+    padding: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.left_box{
+    padding-top: 50px;
+}
+.left_box p{
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 35px;
+}
